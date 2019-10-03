@@ -6,8 +6,8 @@ I want to list those WTFs so it either reminds me to get understanding of it or 
 
 ## Missing access modifiers
 
-`type memberInfo struct {` means public access
+`type memberInfo struct {` means private access (only accessible within single package)
 
-`type MemberInfo struct {` means private access
+`type MemberInfo struct {` means public access (accessible fron other packages)
 
 Where are access modifiers?!
