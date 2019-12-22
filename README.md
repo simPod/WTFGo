@@ -26,3 +26,8 @@ case 3:
     fmt.Println("three")
 }
 ```
+
+Seems like it's the reason why it can't be collapsed
+
+![Dreaming about collapsing switch statement](https://raw.githubusercontent.com/simPod/WTFGo/master/img/dreaming-about-collapsing-swtich-statement.png)
+
