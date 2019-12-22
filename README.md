@@ -11,3 +11,18 @@ I want to list those WTFs so it either reminds me to get understanding of it or 
 `type MemberInfo struct {` means public access (accessible from other packages)
 
 Where are access modifiers?!
+
+## Switch-case Indent
+
+Is this a proper indentation for switch case? Why reinvent something that works... The outcome is definitelly worse.
+
+```go
+switch i {
+case 1:
+    fmt.Println("one")
+case 2:
+    fmt.Println("two")
+case 3:
+    fmt.Println("three")
+}
+```
